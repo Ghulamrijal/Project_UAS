@@ -170,14 +170,6 @@
                         </li>
                         <li>
                             <a href="table.html">
-                                <i class="fas fa-table"></i>Pegawai</a>
-                        </li>
-                        <li>
-                            <a href="table.html">
-                                <i class="fas fa-table"></i>User</a>
-                        </li>
-                        <li>
-                            <a href="table.html">
                                 <i class="fas fa-table"></i>Laporan</a>
                         </li>
                         <li>
@@ -209,15 +201,14 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">ADMINISTRATOR</a>
+                                            <a class="js-acc-btn" href="#">USER</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">ADMIN</a>
+                                                        <a href="#">USER</a>
                                                     </h5>
-                                                    <span class="email">diskominfo@batukota.go.id</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">

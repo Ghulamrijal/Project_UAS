@@ -53,19 +53,11 @@
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="../pegawai/crud_pegawai.php">
-                                <i class="fas fa-table"></i>Pegawai</a>
-                        </li>
-                        <li>
-                            <a href="user/crud_user.php">
-                                <i class="fas fa-table"></i>User</a>
-                        </li>
-                        <li>
-                            <a href="../laporan/crud_laporan.php">
+                            <a href="table.html">
                                 <i class="fas fa-table"></i>Laporan</a>
                         </li>
                         <li>
-                            <a href="calendar.html">
+                            <a href="../kalender.php">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                     </ul>
@@ -93,15 +85,14 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">ADMINISTRATOR</a>
+                                            <a class="js-acc-btn" href="#">USER</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#">USER</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -115,7 +106,7 @@
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="#">
+                                                <a href="../logout.php">
                                                     <i class="zmdi zmdi-power"></i>Logout</a>
                                             </div>
                                         </div>
@@ -140,9 +131,9 @@
                                             <tr>
                                                 <th class="text-center">NO</th>
                                                 <th class="text-center">NAMA</th>
-                                                <th class="text-center">USERNAME</th>
-                                                <th class="text-center">PASSWORD</th>
-                                                <th class="text-center">ROLE</th>
+                                                <th class="text-center">TANGGAL</th>
+                                                <th class="text-center">HASILKERJA</th>
+                                                <th class="text-center">CATATAN</th>
                                                 <th class="text-center">OPSI</th>
                                             </tr>
                                         </thead>
@@ -150,25 +141,27 @@
                                         <?php 
                                             include '../koneksi.php';
                                             $no = 1;
-                                            $data = mysqli_query($koneksi,"SELECT * FROM user left JOIN pegawai ON user.idpegawai = pegawai.idpegawai");
+                                            $data = mysqli_query($koneksi,"SELECT * FROM laporan 
+                                            LEFT JOIN user ON laporan.iduser = user.iduser
+                                            LEFT JOIN pegawai on user.idpegawai = pegawai.idpegawai");
                                             while($d = mysqli_fetch_array($data)){
-                                                ?>
+                                            ?>
                                             <tr>
                                             <td><?php echo $no++; ?></td>
                                             <td><?php echo $d['nama']; ?></td>
-                                            <td><?php echo $d['username']; ?></td>
-                                            <td><?php echo $d['password']; ?></td>
-                                            <td><?php echo $d['role']; ?></td>
+                                            <td><?php echo $d['tanggal']; ?></td>
+                                            <td><?php echo $d['hasilkerja']; ?></td>
+                                            <td><?php echo $d['catatan']; ?></td>
                                             <td>
-                                            <button type="button" class="btn btn-primary"><a href="edit_user.php?iduser=<?php echo $d['iduser']; ?>" style="color:#FFFAFA;">EDIT</a></button>
-                                            <button type="button" class="btn btn-danger" ><a href="query_hapus.php?iduser=<?php echo $d['iduser']; ?>" style="color:#FFFAFA;">HAPUS</a></button>
+                                            <button type="button" class="btn btn-primary"><a href="edit_laporan.php?idlaporan=<?php echo $d['idlaporan']; ?>" style="color:#FFFAFA;">EDIT</a></button>
+                                            <button type="button" class="btn btn-danger" ><a href="query_hapus.php?idlaporan=<?php echo $d['idlaporan']; ?>" style="color:#FFFAFA;">HAPUS</a></button>
                                             </td>
                                             </tr>
                                         <?php } ?>
                                         </tbody>
                                     </table>
                                     <div class="card-body">
-                                        <button type="button" class="btn btn-outline-success btn-lg btn-block"> <a href="tambah_user.php" >Tambah User</a></button>
+                                        <button type="button" class="btn btn-outline-success btn-lg btn-block"> <a href="tambah_laporan.php" >Tambah Laporan</a></button>
                                     </div>
                                 </div>
                             </div>

@@ -215,9 +215,9 @@
                                             <div class="info clearfix">
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#">ADMIN</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email">Diskominfo@batukota.go.id</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -231,7 +231,7 @@
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="#">
+                                                <a href="../logout.php">
                                                     <i class="zmdi zmdi-power"></i>Logout</a>
                                             </div>
                                         </div>
