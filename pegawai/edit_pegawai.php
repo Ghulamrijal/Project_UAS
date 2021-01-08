@@ -165,11 +165,11 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="../admin_home.php">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="pegawai/crud_pegawai.php">
+                            <a href="crud_pegawai.php">
                                 <i class="fas fa-table"></i>Pegawai</a>
                         </li>
                         <li>

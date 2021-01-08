@@ -165,19 +165,19 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="../admin_home.php">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="../pegawai/crud_pegawai.php">
                                 <i class="fas fa-table"></i>Pegawai</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="../user/crud_user.php">
                                 <i class="fas fa-table"></i>User</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="crud_laporan.php">
                                 <i class="fas fa-table"></i>Laporan</a>
                         </li>
                     </ul>

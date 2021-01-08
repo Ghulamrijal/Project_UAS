@@ -49,7 +49,7 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="../admin_home.php">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
@@ -57,7 +57,7 @@
                                 <i class="fas fa-table"></i>Pegawai</a>
                         </li>
                         <li>
-                            <a href="user/crud_user.php">
+                            <a href="crud_user.php">
                                 <i class="fas fa-table"></i>User</a>
                         </li>
                         <li>

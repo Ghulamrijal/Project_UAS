@@ -49,11 +49,11 @@
                 <nav class="navbar-sidebar">
                     <ul class="list-unstyled navbar__list">
                         <li class="active has-sub">
-                            <a class="js-arrow" href="#">
+                            <a class="js-arrow" href="../user_home.php">
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="table.html">
+                            <a href="crud_laporan_user.php">
                                 <i class="fas fa-table"></i>Laporan</a>
                         </li>
                         <li>
@@ -153,15 +153,15 @@
                                             <td><?php echo $d['hasilkerja']; ?></td>
                                             <td><?php echo $d['catatan']; ?></td>
                                             <td>
-                                            <button type="button" class="btn btn-primary"><a href="edit_laporan.php?idlaporan=<?php echo $d['idlaporan']; ?>" style="color:#FFFAFA;">EDIT</a></button>
-                                            <button type="button" class="btn btn-danger" ><a href="query_hapus.php?idlaporan=<?php echo $d['idlaporan']; ?>" style="color:#FFFAFA;">HAPUS</a></button>
+                                            <button type="button" class="btn btn-primary"><a href="edit_laporan_user.php?idlaporan=<?php echo $d['idlaporan']; ?>" style="color:#FFFAFA;">EDIT</a></button>
+                                            <button type="button" class="btn btn-danger" ><a href="query_hapus_user.php?idlaporan=<?php echo $d['idlaporan']; ?>" style="color:#FFFAFA;">HAPUS</a></button>
                                             </td>
                                             </tr>
                                         <?php } ?>
                                         </tbody>
                                     </table>
                                     <div class="card-body">
-                                        <button type="button" class="btn btn-outline-success btn-lg btn-block"> <a href="tambah_laporan.php" >Tambah Laporan</a></button>
+                                        <button type="button" class="btn btn-outline-success btn-lg btn-block"> <a href="tambah_laporan_user.php" >Tambah Laporan</a></button>
                                     </div>
                                 </div>
                             </div>

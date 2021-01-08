@@ -106,10 +106,6 @@
                             <a href="laporan/crud_laporan.php">
                                 <i class="fas fa-table"></i>Laporan</a>
                         </li>
-                        <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
                     </ul>
                 </nav>
             </div>

@@ -95,11 +95,11 @@
                                 <i class="fas fa-tachometer-alt"></i>Dashboard</a>
                         </li>
                         <li>
-                            <a href="laporan/crud_laporan.php">
+                            <a href="laporan/crud_laporan_user.php">
                                 <i class="fas fa-table"></i>LAPORAN</a>
                         </li>
                         <li>
-                            <a href="calendar.html">
+                            <a href="kalender.php">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                     </ul>
@@ -133,9 +133,8 @@
                                             <div class="info clearfix">
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#">USER</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
