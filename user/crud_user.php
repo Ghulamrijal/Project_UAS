@@ -64,10 +64,6 @@
                             <a href="../laporan/crud_laporan.php">
                                 <i class="fas fa-table"></i>Laporan</a>
                         </li>
-                        <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
                     </ul>
                 </nav>
             </div>
@@ -99,9 +95,9 @@
                                             <div class="info clearfix">
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#">ADMIN</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email">diskominfo@batukota.go.id</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -110,7 +106,7 @@
                                                         <i class="zmdi zmdi-account"></i>Account</a>
                                                 </div>
                                                 <div class="account-dropdown__item">
-                                                    <a href="#">
+                                                    <a href="../logout.php">
                                                         <i class="zmdi zmdi-settings"></i>Setting</a>
                                                 </div>
                                             </div>

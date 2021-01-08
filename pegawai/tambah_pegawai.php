@@ -180,10 +180,6 @@
                             <a href="../laporan/crud_laporan.php">
                                 <i class="fas fa-table"></i>Laporan</a>
                         </li>
-                        <li>
-                            <a href="calendar.html">
-                                <i class="fas fa-calendar-alt"></i>Calendar</a>
-                        </li>
                     </ul>
                 </nav>
             </div>
@@ -209,15 +205,15 @@
                                 <div class="account-wrap">
                                     <div class="account-item clearfix js-item-menu">
                                         <div class="content">
-                                            <a class="js-acc-btn" href="#">DISKOMINFO</a>
+                                            <a class="js-acc-btn" href="#">ADMINISTRATOR</a>
                                         </div>
                                         <div class="account-dropdown js-dropdown">
                                             <div class="info clearfix">
                                                 <div class="content">
                                                     <h5 class="name">
-                                                        <a href="#">john doe</a>
+                                                        <a href="#">ADMIN</a>
                                                     </h5>
-                                                    <span class="email">johndoe@example.com</span>
+                                                    <span class="email">diskominfo@batukota.go.id</span>
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__body">
@@ -231,7 +227,7 @@
                                                 </div>
                                             </div>
                                             <div class="account-dropdown__footer">
-                                                <a href="">
+                                                <a href="../logout.php">
                                                     <i class="zmdi zmdi-power"></i>Logout</a>
                                             </div>
                                         </div>

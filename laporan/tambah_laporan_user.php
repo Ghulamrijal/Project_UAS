@@ -57,7 +57,7 @@
                                 <i class="fas fa-table"></i>Laporan</a>
                         </li>
                         <li>
-                            <a href="calendar.html">
+                            <a href="../kalender.php">
                                 <i class="fas fa-calendar-alt"></i>Calendar</a>
                         </li>
                     </ul>
